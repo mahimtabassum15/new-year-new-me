@@ -73,6 +73,102 @@
 /* <!-- Failures Section END --> */
 
 /* <!-- My-plan Section Start --> */
+.my-plan{
+    padding: 40px;
+}
+.my-plan>h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(43, 42, 42);
+}
+.my-plan .plan{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 40px;
+}
 
-
+.my-plan .plan img{
+    width: 70px;
+}
+.my-plan .plan h2{
+    font-size: 25px;
+    font-weight: bolder;
+}
+.my-plan .plan p{
+    font-size: 18px;
+    padding: 10px 0;
+    color: rgb(54, 53, 53);
+    font-weight: bolder;
+}
+.my-plan .card{
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    max-width: 70%;
+    background-image: url(./images/gradient2.png),url(./images/watch.png);
+    padding: 100px 50px;
+}
+.my-plan .card h2{
+    color: rgb(233, 221, 221);
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0 0 15px 0;
+}
+.my-plan .card button{
+    font-size: 18px;
+    padding: 12px 25px;
+    color: orangered;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
 /* <!-- My-plan Section END --> */
+
+footer{
+    background-color: black;
+    padding: 70px 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+footer .div1 h1{
+    color: white;
+    font-style: italic;
+    font-size: 35px;
+}
+footer .div1 p{
+    color: antiquewhite;
+    margin: 15px 0;
+    line-height: 20px;
+}
+
+footer .div1>ul{
+    display: flex;
+}
+footer .div1 ul li{
+    list-style-type: none;
+    margin: 0 25px 0 0;
+}
+
+footer .div2 h1{
+    color: white;
+    font-style: italic;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+footer .div2 input{
+    padding: 10px 15px;
+    background-color: black;
+    border: 1px solid wheat;
+    border-radius: 5px;
+    font-style: italic;
+}
+footer .div2 button{
+    font-size: 18px;
+    padding: 10px 20px;
+    color: orangered;
+    font-weight: bolder;
+    border: none;
+    border-radius: 5px;
+}
