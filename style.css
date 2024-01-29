@@ -2,3 +2,77 @@
     padding: 0;
     margin: 0;
 }
+/* <!-- Header Section Start --> */
+
+.header{
+    margin-top: -20px;
+    background-image: url(./images/banner/banner1.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 150px;
+}
+.header{
+    text-align: right;
+}
+.header h1{
+    font-weight: bolder;
+    font-size: 45px;
+    color: rgb(44, 44, 44);
+}
+.header p{
+    font-size: 17px;
+    margin: 15px 0;
+    color: rgb(44, 44, 44);
+}
+.header button{
+    padding: 15px 20px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 5px;
+}
+/* <!-- Header Section END --> */
+
+/* <!-- Failures Section Start --> */
+.failure-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+.failure-section .div1>img{
+    height: 500px;
+}
+
+.failure-section .div2{
+    margin-top: 120px;
+}
+.failure-section .div2>h1{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.failure-section .div2>p{
+    font-size: 16px;
+    margin: 17px 0;
+    color: rgb(56, 55, 55);
+}
+
+.failure-section .div2 ol li>i{
+    color: aqua;
+}
+.failure-section .div2 ol>li{
+    line-height: 25px;
+}
+.failure-section .div2 ol{
+    list-style-position: inside;
+    color: rgb(56, 55, 55);
+    list-style-type: none;
+}
+/* <!-- Failures Section END --> */
+
+/* <!-- My-plan Section Start --> */
+
+
+/* <!-- My-plan Section END --> */
